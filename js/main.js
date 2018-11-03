@@ -69,10 +69,6 @@ var minuteRemain = Math.floor(z/minute);
 var w = z - minuteRemain* minute;
 var secondRemain = Math.floor(w/second);
 
-// document.getElementById("countsmall").style.color="darkblue";
-// document.getElementById("countsmall").style.fontSize="35px";
-// document.getElementById("countbig").style.color="darkblue";
-// document.getElementById("countbig").style.fontSize="12px";
 
 
 
@@ -89,9 +85,6 @@ function myReadMore(){
     document.getElementById("showMe").style="display:inline;";
     document.getElementById("hideMe").style="display:none;";
    
-
-    // document.getElementById("Explain").style="border:1px solid black";
-    // document.getElementById("Explain").style="box-shadow: 5px 5px 5px 5px; ";
 
 }
 function myReadLess(){
