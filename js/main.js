@@ -15,7 +15,7 @@ setInterval(function(){
     var adr = "./images/"
     if (str.includes("german") || (str.includes("farsi")) || (str.includes("arabi"))){adr = "../images/"}
     if(!mouseover){i++};
-    if ( i >= 25){i = 1;}
+    if ( i >= 24){i = 1;}
    document.getElementById("slideImage").src=adr+i+".jpg";} ,3000);
 
 }
@@ -25,7 +25,7 @@ function plusDivs(j){
     var adr = "./images/"
     if (str.includes("german") || (str.includes("farsi")) || (str.includes("arabi"))){adr = "../images/"}
    i = i +j;
-    if ( i >= 25){i = 1;}
+    if ( i >= 24){i = 1;}
    document.getElementById("slideImage").src=adr+i+".jpg";
 }
 
